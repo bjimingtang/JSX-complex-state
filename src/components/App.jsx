@@ -29,17 +29,11 @@ function App() {
       </h1>
       <form>
         <input
-          name="firstName"
           onChange={updateFullName}
           name="fName"
           placeholder="First Name"
         />
-        <input
-          name="lastName"
-          onChange={updateFullName}
-          name="lName"
-          placeholder="Last Name"
-        />
+        <input onChange={updateFullName} name="lName" placeholder="Last Name" />
         <button>Submit</button>
       </form>
     </div>
